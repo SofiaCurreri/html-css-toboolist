@@ -10,16 +10,48 @@
 </head>
 
 <body>
+
+    <!--Header con logo e titolo  -->
     <header>
         <img id="logo" src="./img/Logo.png" alt="logo">
         <span id="titolo"> Toboolist </span>
     </header>
-<br>
+
+    <br>
+    
+    <!-- Corpo principale -->
     <main>
+        <!-- Buttons iniziali -->
         <div class="container">
-            <button id="button-task"> Add Task </button>
-            <button id="button-section"> Add Section </button>
-        </div>
+             <button id="button-task"> Add Task </button>
+             <button id="button-section"> Add Section </button>
+        
+         <hr>
+            <!-- Elenco To Do List -->
+            <details class="margine">
+                <summary class="margine dimensione"> <strong> New Task </strong> </summary>
+                <p class="margine"> &#9989; Quarterly Newsletter <span class="button blu"> Editorial </span></p>
+            </details>
+
+            <details class="margine">
+                <summary class="margine dimensione"> <strong> Today </strong> </summary>
+                <p class="margine"> &#9989; Recruiting Blog Post <span class="button blu"> Editorial </span></p>
+                <p class="margine"> &#9989; Mobile App launch <span class="button viola"> Q1 Goals </span></p>
+                <p class="margine"> &#10060; Interviw John H. <span class="button verde"> Recruiting </span></p>
+                <p class="margine"> &#9989; Summit update to mobile storefronts <span class="button arancione"> Mobile </span></p>
+            </details>
+
+            <details class="margine">
+                <summary class="margine dimensione"> <strong> Upcoming </strong> </summary>
+                <p class="margine"> &#10060; Schedule meeting with Alex </p>
+                <p class="margine"> &#9989; Homepage refresh <span class="button rosa"> Website </span></p>
+                <p class="margine"> &#9989; Onboard new sales team members <span class="button acido"> Sales </span></p>
+                <p class="margine"> &#9989; Reviw editorial calendar <span class="button blu"> Editorial </span></p>
+            </details>
+        </div>  
+        
     </main>
+    
+    
 </body>
 </html>
