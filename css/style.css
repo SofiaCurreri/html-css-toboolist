@@ -39,21 +39,22 @@ hr{
     border-top: 1px solid rgb(241, 241, 241);
 }
 
-#button-task{
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+}
+    
+.task{
     margin: 20px 5px 10px 60px;
     background-color:rgb(0, 179, 255);
     color: white;
-    padding: 10px;
-    border-radius: 5px;
     border: 2px solid rgb(0, 179, 255);
 }
 
-#button-section {
-    color: rgb(195, 190, 190);
-    background-color: white;
-    padding: 10px;
-    border-radius: 5px;
-    border: 2px solid rgb(195, 190, 190);
+.section {
+    background-color: transparent;
+    color: rgb(187, 178, 178);
+    border: 2px solid currentColor;
 }
 
 details{
