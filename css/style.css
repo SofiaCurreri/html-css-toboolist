@@ -7,7 +7,7 @@ body{
     margin: 0;
     background-color: rgb(241, 241, 241);
     font-family: sans-serif;
-    line-height: 10px;
+    line-height: 0px;
 }
 
 header{
@@ -60,7 +60,7 @@ hr{
     font-weight: 500;
 }
 
-.dimensione{
+summary{
     font-size: 20px;
 }
 
