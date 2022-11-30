@@ -28,7 +28,7 @@ header{
 
 .container{
     background-color: white;
-    width: 80%;
+    max-width: 80%;
     height: 800px;
     margin: 0 auto;
     border-top-left-radius: 8px;
@@ -66,33 +66,39 @@ summary{
     font-size: 20px;
 }
 
-.button{
+.list-item{
+    line-height: 40px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.label{
     color: white;
     font-size: 10px;
     padding: 10px;
     border-radius: 20px;
 }
 
-.blu{
+.editorial{
     background-color: rgb(0, 179, 255);
 }
 
-.viola{
+.goal{
     background-color: rgb(207, 112, 251);
 }
 
-.verde{
+.recruiting{
     background-color: rgba(0, 206, 148, 0.881);
 }
 
-.arancione{
+.mobile{
     background-color: orange;
 }
 
-.rosa{
+.web{
     background-color: palevioletred;
 }
 
-.acido{
+.sales{
     background-color: rgb(151, 232, 44);
 }
