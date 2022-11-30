@@ -15,6 +15,10 @@ header{
     background-color: white;
 }
 
+ul{
+    list-style-type: none;
+}
+
 #logo{
     padding: 10px;
     vertical-align: middle;
@@ -67,15 +71,42 @@ summary{
 }
 
 .list-item{
+    height: 40px;
     line-height: 40px;
     margin-left: 30px;
+}
+
+.list-item > *{
+    vertical-align: middle;
+}
+
+.list-item::before {
+    display: inline-block;
+    border: 1px solid currentColor;
+    font-size: 11px;
     border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align:center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.list-item.check::before{
+    content: '\2714';
+    color: rgb(0, 193, 0);
+}
+
+.list-item.uncheck::before{
+    content: '\2718';
+    color: rgb(207, 2, 2);
 }
 
 .label{
+    display: inline-block;
     color: white;
     font-size: 10px;
-    padding: 10px;
+    padding: 2px 8px;
     border-radius: 20px;
 }
 
